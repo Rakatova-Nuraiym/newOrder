@@ -1,0 +1,72 @@
+.mainLayout {
+  margin-top: 20px;
+}
+
+.layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.food {
+  padding: 20px;
+  background: purple;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  width: 100%;
+  max-width: 330px;
+
+  cursor: pointer;
+}
+
+.food img {
+  width: 100px;
+  height: 100px;
+}
+
+.singleMeal {
+  padding: 20px;
+
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  width: 100%;
+  max-width: 330px;
+  cursor: pointer;
+}
+
+.togother {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.product {
+  background: purple;
+  padding: 20px;
+
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  width: 100%;
+  max-width: 330px;
+  cursor: pointer;
+}
